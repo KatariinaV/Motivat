@@ -1,0 +1,103 @@
+body {
+    background-image: url("");
+    background-color:#0D1778;
+    }
+
+.title
+{
+    text-align: center;
+    color: #1100ff;
+    font-family: 'Maitree', serif;
+    font-size: 44px;
+    border: 5px dotted #1E2174;  
+}
+
+.maintitle
+{
+    text-align: center;
+    color: #0D1778;
+    font-family: 'Maitree', serif;
+    font-size: 69px;
+    padding-bottom: px;
+}
+
+
+.tabletitle
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;    
+}
+
+
+.tabletext
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+.ntext
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+
+.htext
+{ 
+    color: white; 
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 25px; 
+    background-color: darkslateblue; 
+    padding: 10px; 
+    border: 5px dashed #0D1778; 
+    margin: 15px; 
+}
+
+
+
+click {
+   margin: 15px; 
+    text-align: center; 
+    background-color: black;
+}
+
+.para{
+    color: white; 
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px; 
+}
+
+.bio{
+    background-color: black;
+}
+
+.maindiv{
+    background-color: #213DD4;
+    margin: 3em;
+    flex-wrap:wrap;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    background: #1100ff;
+    border-radius: 15px;
+	color: black;
+    display: block;
+    margin: auto;
+    font-size: 1.5em;
+    margin-top:1em;
+}
+
+input[type="text"] {
+    display: block;
+    margin : 0 auto;
+    height: 3em;
+    width: 50em;
+    padding: 1em;
+    border: 4px dashed #1E2174;
+}

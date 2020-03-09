@@ -1,0 +1,168 @@
+
+<html>
+	<head>
+	
+        <link rel="stylesheet" href="styles.css">
+	   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Maitree&display=swap" rel="stylesheet">
+		<title>
+			
+            Motivat
+			
+		</title>
+
+    </head>
+
+	<body>
+         
+        <div class="maindiv">
+        
+        <a href="#vid">
+			<p> Video </p>
+        </a>  
+        
+    
+        
+		  <h1 class="maintitle"> <strong> Motivat </strong> </h1>
+		
+        
+            <h3 class="ntext">Beacause every letter counts.</h3> 
+        
+        
+        
+            <h2 class="title">   App descrption:  </h2>
+        
+        
+       <table align = "center">
+				<tr>
+					<th><img style="display: block; margin: auto;"  src="https://i.imgur.com/6WMQPWW.png" width="300" height="300" />
+					
+					<font size="1">
+			             <i><div>Icons made by <a  target="_blank" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a  target="_blank" href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div></i>
+					</font>
+		 
+				
+			 <h3 class="tabletitle"> <span style="color:red"> Motivates</span> you to stay ontop of your writing. </h3> </th>
+				
+			
+			
+				    <th><img style="display: block; margin: auto;"  src="https://i.imgur.com/lL0NbCP.png" width="300" height="300" />
+					
+                        
+					<font size="1">
+				        <i><div>Icons made by <a  target="_blank" href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a  target="_blank" href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div></i>
+					</font>
+					
+					
+				
+				<h3 class="tabletitle"> <span style="color:red">Share</span> your ideas and stories. </h3></th>
+				
+				
+				
+					<th><img style="display: block; margin: auto;"  src="https://i.imgur.com/7r8Cr5m.png" width="300" height="300" />
+					
+					<font size="1">
+			             <i> <div>Icons made by <a  target="_blank" href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a  target="_blank" href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div></i>
+					</font>
+			
+			
+				
+			 <h3 class="tabletitle"> Find <span style="color:red">inspiration</span> for your stories. </h3>
+                    
+                    </th>
+				
+				     
+				</tr>
+
+				
+				<tr align="centre">
+					<td class="tabletext">With a daily goal and encouraging tips from others.</td>
+					<td class="tabletext"> Inspire others to write more for themselves and get feedback.</td>
+					<td class="tabletext"> Get inspired by writing tips and prompts from other users.</td>
+				</tr>
+			</table>
+			
+            
+        
+        <a target="_blank"     href="https://docs.google.com/document/d/1LSPFRlw9KEc68v72nyuZD8JYg2OnqH8TRaq2bKO_c94/edit?usp=sharing" target="_blank">
+			
+            <p class="ntext">More information.</p>
+            
+		</a>
+
+		
+        
+
+
+        <a href= "https://www.grammarly.com/blog/how-to-beat-writers-block-2" target="_blank">
+        
+		  <h2 class="title">  Image:  </h2>  
+	   </a>
+	
+            <img style="display: block; margin: auto;" src="https://i.imgur.com/ylIA8ON.jpg" width= "600" height="350" border="1px">
+             
+    
+
+		  <h2 class="title"> Mockups:  </h2> 
+
+         <table align = "center">
+				<tr>
+					<th>  <img style="display: block; margin: auto;" 
+             src="https://i.imgur.com/qFTb3Qv.png" width="300" height="600" border="1px"> </th>
+									
+
+					<th><img style="display: block; margin: auto;" 
+             src="https://i.imgur.com/RKdsJwf.png" width="300" height="600" border="1px"> </th>
+
+					
+                    <th>   <img style="display: block; margin: auto;" 
+             src="https://i.imgur.com/LhBYyAu.png" width="300" height="600" border="1px"> </th>
+									
+             </tr>
+				
+			</table>
+        
+        
+        <a target="_blank" href="https://www.figma.com/proto/9QfySZQOS3LWFxzcoGN6qn/App?node-id=3%3A4&viewport=580%2C537%2C0.6696478128433228&scaling=scale-down">
+        <button><b>Prototype</b></button>
+        </a>
+        
+        
+		  <h2 class="title" id="vid"> Video: </h2> 
+
+            <iframe style="display: block; margin: auto;" width="660" height="415" src="https://www.youtube.com/embed/f7VvLq49DKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+             
+        
+        <a href= "item.html"> <p class="htext">Help & Feedback</p> </a>
+        
+    
+         <h2 class="title"> Test your creativity:  </h2>
+        
+          <input placeholder="Try to come up with a short story prompt" type="text" id="myInput" >
+      
+        <button onclick="newElement()" class="addBtn">Add</button>
+        
+        
+        <script>
+        
+        function newElement() { 
+            
+            var div = document.createElement("div");   
+            div.classList.add("bio"); 
+              
+            var para = document.createElement("P");
+            para.classList.add("para");
+            para.innerText = document.getElementById("myInput").value;
+            div.appendChild(para);
+    
+        document.body.appendChild(div);
+        } 
+        </script>
+        
+        </div>
+	</body>
+
+</html>
+
